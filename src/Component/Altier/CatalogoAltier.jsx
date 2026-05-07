@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import NavbarAtelier from '../../Component/Altier/NavbarAltier';
+import NavbarAtelier from './NavbarAltier';
 // import { supabase } from '../lib/supabaseClient'; 
 
 const AtelierCatalog = () => {
@@ -36,9 +36,9 @@ const AtelierCatalog = () => {
                 {/* Navigation / Header */}
                 <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-end mb-24 border-b border-zinc-800/50 pb-8">
                     <div>
-                        <h2 className="text-xs uppercase tracking-[0.3em] text-zinc-500 mb-2">Portfolio</h2>
+                        <h2 className="text-xs uppercase tracking-[0.3em] text-zinc-500 mb-2">Luxury Collection</h2>
                         <h1 className="text-5xl md:text-6xl font-extralight tracking-tighter text-white">
-                            WOLF <span className="italic font-serif">ATELIER</span>
+                            WOLF <span className="text-[#D4AF37] italic font-serif">ATELIER</span>
                         </h1>
                     </div>
 

@@ -5,8 +5,8 @@ function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                     {/* Brand Column */}
                     <div>
-                        <h3 className="text-xl font-bold mb-4 text-[#D4AF37]">WOLF GEAR</h3>
-                        <p className="text-gray-400 text-sm">Equilibrio entre estilo y rendimiento. Diseñemos con los campeones.</p>
+                        <h3 className="text-xl font-bold mb-4 text-[#D4AF37]">WOLF ATELIER</h3>
+                        <p className="text-gray-400 text-sm">Diseñamos moda con actitud.</p>
                         <div className="flex space-x-4 mt-6">
                             <a
                                 href="#"
@@ -66,7 +66,8 @@ function Footer() {
 
                 {/* Bottom Row */}
                 <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
-                    <p>&copy; 2026 Wolf Gear. Todos los derechos reservados.</p>
+                    <p>&copy; 2026 Wolf Industries. Todos los derechos reservados.</p>
+                    <span>Built by Wolf Dev Studio</span>
                     <div className="flex space-x-4 mt-4 md:mt-0">
                         <a href="#" className="hover:text-white transition">Política de Privacidad</a>
                         <a href="#" className="hover:text-white transition">Términos de Servicio</a>

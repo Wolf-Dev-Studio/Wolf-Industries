@@ -1,7 +1,9 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
+    const navigate = useNavigate()
     return (
         <motion.section
             initial={{ y: -100 }}
@@ -31,7 +33,14 @@ const Navbar = () => {
                         initial={{ opacity: 0, y: -100 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 3 }}
+                        onClick={() => navigate('/history')}
                         className='text-xl font-bold text-white uppercase cursor-pointer hover:text-gray-400 transition-colors duration-300'>Historia</motion.li>
+                    <motion.li
+                        initial={{ opacity: 0, y: -100 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 4 }}
+                        onClick={() => navigate('/login')}
+                        className='text-xl font-bold text-white uppercase cursor-pointer hover:text-gray-400 transition-colors duration-300'>Login</motion.li>
                 </motion.ul>
             </motion.nav>
         </motion.section>

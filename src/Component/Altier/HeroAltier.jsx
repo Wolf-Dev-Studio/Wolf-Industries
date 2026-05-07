@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import HeroAltier from "../../assets/HeroAltier.webp";
 
 const Atelier = () => {
     return (
@@ -8,7 +9,7 @@ const Atelier = () => {
                 {/* Fondo con imagen en Blanco y Negro (Grayscale) */}
                 <div
                     className="absolute inset-0 bg-cover bg-center grayscale opacity-50"
-                    style={{ backgroundImage: "url('https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?q=80&w=2069')" }} // Foto placeholder de carro clásico/elegante
+                    style={{ backgroundImage: `url(${HeroAltier})` }} // Foto placeholder de carro clásico/elegante
                 />
 
                 {/* Overlay oscuro sutil para que el dorado resalte más */}
@@ -22,7 +23,7 @@ const Atelier = () => {
                         transition={{ duration: 1 }}
                     >
                         <h1 className="text-5xl md:text-7xl font-serif tracking-widest text-[#D4AF37] mb-6 uppercase drop-shadow-lg">
-                            Precisión Alemana
+                            Ingeniería Textil
                         </h1>
                         <p className="text-white/80 font-light tracking-widest text-lg md:text-2xl uppercase max-w-2xl mx-auto border-t border-[#D4AF37]/50 pt-6">
                             La excelencia definida en cada detalle

@@ -30,7 +30,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: -100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 2 }}
-            className="relative flex h-screen w-full overflow-hidden bg-black font-sans pt-44 pb-10 pr-10 pl-10">
+            className="relative flex h-screen w-full overflow-hidden bg-black font-sans pt-48 pb-10 pr-10 pl-10">
 
             {/* --- LADO WOLF GEAR --- */}
             <motion.section
@@ -105,7 +105,7 @@ const Hero = () => {
                                 {(activeSide === 'atelier' || selectedSide === 'atelier') && (
                                     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 10 }} className="mt-6">
                                         <p className="text-amber-100/70 text-lg md:text-xl font-light tracking-widest uppercase">Curated Excellence</p>
-                                        <button onClick={() => navigate('/altier')} className="mt-8 px-10 py-4 border border-amber-200 text-amber-200 text-lg font-medium hover:bg-amber-200 hover:text-black transition-colors duration-300 transform hover:scale-105">
+                                        <button onClick={() => navigate('/atelier')} className="mt-8 px-10 py-4 border border-amber-200 text-amber-200 text-lg font-medium hover:bg-amber-200 hover:text-black transition-colors duration-300 transform hover:scale-105">
                                             {selectedSide === 'atelier' ? 'Preparando Colección...' : 'Descubrir el Lujo'}
                                         </button>
                                     </motion.div>

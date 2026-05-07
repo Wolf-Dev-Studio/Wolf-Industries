@@ -20,11 +20,11 @@ function SocialProof() {
                 {/* Encabezado Principal */}
                 <div className="mb-12 text-center">
                     <h2 className="text-sm font-serif tracking-[0.3em] text-neutral-500 uppercase mb-2">
-                        Heritage & Standards
+                        Patrimonio y estándares
                     </h2>
                     <div className="h-[2px] w-12 bg-neutral-700 mx-auto mb-4"></div>
                     <p className="text-xl md:text-2xl font-light tracking-wider text-neutral-300 max-w-lg mx-auto leading-relaxed">
-                        RECOGNITION BY INDUSTRY LEADERS
+                        RECONOCIMIENTO DE LÍDERES DE LA INDUSTRIA
                     </p>
                 </div>
 
@@ -35,12 +35,12 @@ function SocialProof() {
                     <div className="group text-center">
                         <div className="mb-4 group-hover:text-[#D4AF37] transition-colors duration-500 ease-out">
                             <span className="text-3xl md:text-4xl font-thin tracking-wide text-neutral-100 group-hover:text-[#D4AF37]">
-                                EXCELLENCE
+                                EXCELENCIA
                             </span>
                         </div>
                         <div className="w-12 h-[1px] bg-neutral-800 mx-auto group-hover:bg-[#D4AF37]/50 transition-colors duration-500"></div>
                         <p className="mt-4 text-neutral-500 font-light text-xs uppercase tracking-[0.15em] group-hover:text-neutral-400 transition-colors duration-500">
-                            Maintains its form
+                            Mantiene su forma
                         </p>
                     </div>
 
@@ -48,12 +48,12 @@ function SocialProof() {
                     <div className="group text-center">
                         <div className="mb-4 group-hover:text-[#D4AF37] transition-colors duration-500 ease-out">
                             <span className="text-3xl md:text-4xl font-thin tracking-wide text-neutral-100 group-hover:text-[#D4AF37]">
-                                ICONIC
+                                ICÓNICO
                             </span>
                         </div>
                         <div className="w-12 h-[1px] bg-neutral-800 mx-auto group-hover:bg-[#D4AF37]/50 transition-colors duration-500"></div>
                         <p className="mt-4 text-neutral-500 font-light text-xs uppercase tracking-[0.15em] group-hover:text-neutral-400 transition-colors duration-500">
-                            Timeless by design
+                            Diseño atemporal
                         </p>
                     </div>
 

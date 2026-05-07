@@ -29,7 +29,7 @@ function Offer() {
                             Exclusive Offer
                         </span>
                         <h2 className="text-4xl md:text-6xl lg:text-7xl font-light text-neutral-100 tracking-tight mb-6 font-serif">
-                            ELEVATE YOUR <span className="text-[#D4AF37] font-serif italic tracking-wide">STATUS</span>
+                            ALCANZA TU MÁXIMO <span className="text-[#D4AF37] font-serif italic tracking-wide">POTENCIAL</span>
                         </h2>
                         <p className="text-neutral-400 text-lg max-w-lg mx-auto lg:mx-0 leading-relaxed">
                             Utiliza el código de invitación para desbloquear acceso inmediato a nuestro catálogo premium y beneficios exclusivos.

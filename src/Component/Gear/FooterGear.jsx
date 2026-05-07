@@ -80,6 +80,7 @@ const FooterGear = () => {
 
                     <div className="text-[10px] font-black text-neutral-600 uppercase tracking-widest">
                         © 2026 WOLF INDUSTRIES // <span className="text-red-900/50">PROTECTED BY THE PACK</span>
+                        <span> // Built by Wolf Dev Studio</span>
                     </div>
                 </div>
 

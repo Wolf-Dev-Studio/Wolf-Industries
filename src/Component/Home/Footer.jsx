@@ -44,7 +44,7 @@ const Footer = () => {
 
             {/* Copyright */}
             <div className="mt-12 flex justify-between items-center text-[10px] text-white tracking-[0.3em] uppercase">
-                <span>© 2026 Wolf Industries Group</span>
+                <span>© 2026 Wolf Industries</span>
                 <span>Built by Wolf Dev Studio</span>
             </div>
         </footer>

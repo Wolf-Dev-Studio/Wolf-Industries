@@ -25,10 +25,10 @@ const NavbarGear = () => {
                     <Tag size={16} className="text-red-600" />
                     Collections
                 </button>
-                <a href="#" className="flex items-center gap-2 text-neutral-400 hover:text-white transition-all font-bold text-xs uppercase tracking-[0.2em] group">
+                <button onClick={() => navigate('/gear/customs')} className="flex items-center gap-2 text-neutral-400 hover:text-white transition-all font-bold text-xs uppercase tracking-[0.2em] group">
                     <Scissors size={16} className="text-red-600" />
                     Customs
-                </a>
+                </button>
             </div>
 
             {/* ACTIONS: Cart & Menu */}
